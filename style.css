@@ -1,0 +1,26 @@
+a { color: white; }
+
+@font-face {
+    font-family: Didot;
+    src: url("Didot-HTF-L42-Light.ttf");
+  }
+      #header {
+        font-family: Didot, 'Times New Roman', Times, serif;
+          font-size: 700%;
+          line-height: 1;
+          user-select: none;
+        }
+        #main {
+          font-family: Times, 'Times New Roman', serif;
+          width: 100%;
+          height: 100%;
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-color: black;
+          color: white;
+          padding: 2rem;
+      }
+  
