@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>粵拼羅馬字（試作）</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        span[cantonese] { font-size:90%; }
+        span[english] { font-size:90%; }
+    </style>
+</head>
+<body>
+    <h1>粵拼羅馬字（試作）<br />
+        <span cantonese>Jyùhtpìng Lomáahzìh (sìzòk)</span><br />
+        <span english>Jyutping Romanization (Draft)</span>
+        </h1>
+    <blockquote>
+        <p>
+        從而家開始我如果有寫Cantonese我會儘量用呢個system加上粵英混寫，just to try things out.<br />
+        <span cantonese>
+            Cung jigäa höicí ngóh jyugwó jáuh sé Cantonese ngóh wùih zèohnlòeng jùhng nïgò system gäasòehng jyùhtjïng wàhnsé, just to try things out.</span><br />
+        <span english>
+            From now on if I want to write in Cantonese I will try my best to use this system and mix with English, just to try things out.
+        </span>
+        </p>
+    </blockquote>
+
+    <h2>前言 <span cantonese>Cinjin</span> <span cantonese>Foreword</span></h2>
+    <p>
+        呢個系統喺為唔方便用Yale system嘅設備基於粵拼設計嘅。
+        <br />
+        <span cantonese>
+            Nïgò hàihtúng hài wai m-föngbìhn jùhng Yale system gè cìtbèih gëijyü jyùhtpìng cìtgài gè.</span><br />
+        <span english>
+            This system is based on Jyutping, designed for devices that cannot use Yale romanization system conviniently.</span>
+    </p>
+
+    <h2>聲調 <span cantonese>Sïngdìuh</span> <span english>Tones</span></h2>
+
+例子：<span cantonese>Làihzí:</span> <span english>Example:</span>
+
+<table>
+    <tr>
+<td style="padding: 1rem;border: 1px black solid;">Jyutping</td>
+<td style="padding: 1rem;border: 1px black solid;">si1</td>
+<td style="padding: 1rem;border: 1px black solid;">si2</td>
+<td style="padding: 1rem;border: 1px black solid;">si3</td>
+<td style="padding: 1rem;border: 1px black solid;">si4</td>
+<td style="padding: 1rem;border: 1px black solid;">si5</td>
+<td style="padding: 1rem;border: 1px black solid;">si6</td>
+<td style="padding: 1rem;border: 1px black solid;">sek1</td>
+<td style="padding: 1rem;border: 1px black solid;">sek3</td>
+<td style="padding: 1rem;border: 1px black solid;">sek6</td>
+</tr>
+<tr>
+<td style="padding: 1rem;border: 1px black solid;">This system</td>
+<td style="padding: 1rem;border: 1px black solid;">sï</td>
+<td style="padding: 1rem;border: 1px black solid;">sí</td>
+<td style="padding: 1rem;border: 1px black solid;">sì</td>
+<td style="padding: 1rem;border: 1px black solid;">si</td>
+<td style="padding: 1rem;border: 1px black solid;">síh</td>
+<td style="padding: 1rem;border: 1px black solid;">sìh</td>
+<td style="padding: 1rem;border: 1px black solid;">sëk</td>
+<td style="padding: 1rem;border: 1px black solid;">sèk</td>
+<td style="padding: 1rem;border: 1px black solid;">sèhk</td>
+</tr>
+</table>
+
+<p>
+一般嘅規則係：帶umlaut > 帶acute & grave > 冇帶任何嘢 > 帶h。<br />
+<span cantonese>
+    Jätbün gè kwäizäk hài: dàai umlaut > dàai acute & grave > móuhdàai jamhojéh > dàai h.
+</span><br />
+<span english>
+    The general rule here is: with umlaut > with acute & grave > with nothing > with h.
+</span>
+</p>
+
+<p>
+字母a、e、i、o同u為元音字母。單個音節有多個元音字母時，accent符號只加喺第一個字母度（其他字母唔加），h加喺最後一個字母之後。<br />
+<span cantonese>
+    Zìhmóuh a, e, i, o tung u wai jyunjäm zìhmóuh. Däangò jämzìt jáuh dögò jyunjäm zìhmóuh si, accent fuhóu zí gäa hái dàihjätgò zìhmóu dòuh (keitäa zìhmóuh m-gäa), h gäa hái zèoihàuh jätgò zìhmóu zïhàuh.
+</span><br />
+<span english>
+    The letters a, e, i, o and u are considered "vowel letters". The accent mark is only added to the first vowel letter, and h is added after the last vowel letter.
+</span>
+
+</p>
+
+<pre>
+e.g. 去  (go)
+JYUTPING: heoi3
+ACCEPTED: hèoi
+REJECTED: hèòi
+</pre>
+
+<pre>
+e.g. 花  (flower)
+JYUTPING: faa1
+ACCEPTED: fäa
+REJECTED: fää
+</pre>
+
+<pre>
+e.g. 懶  (lazy)
+JYUTPING: laan5
+ACCEPTED: láahn
+REJECTED: lááhn
+REJECTED: láhan
+REJECTED: láhán
+</pre>
+
+<h2>分詞 <span cantonese>Fänci</span> <span english>Word separation</span></h2>
+
+<p>
+對如何分詞冇特別要求，似越南語每個字分一個詞亦可，常用詞連住寫亦得；但係應以「是否方便閲讀」同「是否會產生混淆」為準。<br />
+<span cantonese>
+    Dèoih jyuho fänci móuh dàkbìt jïukau, cí jyùht naam jyú múi gò zìh fän jät gò ci jìk hó, soehngjùhngci linzyùhsé jìhkdäk; dàahnhàih jïngjíh "sìhfáu föngbìhn jyùhtdùhk" tung "sìhfáu wùih cáansäng wàhn-ngauh" waizéon.
+</span><br />
+<span english>
+    There's no special requirements about word separation. Both Vietnamese style (each character is a word) and "sticked-together" style for commonly-used words are acceptable, but overall the separation should be easy to read and not causing any confusions.
+</span>
+</p>
+
+<pre>
+e.g. 你究竟喺度講乜嘢啊？
+(What in the world are you talking about here?)
+JYPTING: nei5 gau3 ging2 hai2 dou6 gong2 mat1 je5 a3
+ACCEPTED: néih gàugíng háidòuh góng mätjéh à?
+ACCEPTED: néih gàu gíng hái dòuh góng mät jéh à?
+</pre>
+
+<pre>
+e.g. 嗰件事出咗之後，我就走咗佬去咗法蘭西。
+(After that incident happened I fled and went to France.)
+JYUTPING: go2 gin6 si6 ceot1 zo2 zi1 hau6, ngo5 zau6 zau2 zo2 lou2 heoi3 zo2 faat3 laan4 sai1
+ACCEPTED: gógìnhsìh cëotzó zïhàuh, ngóh zàuh záuzólóu hèoizó fàatlaansäi.
+ACCEPTED: gó gình sìh cëot zó zï hàuh, ngóh zàuh záu zó lóu hèoi zó fàat laan säi.
+</pre>
+
+但係對於以下情況，強烈建議分詞或者中間加hyphen：<br />
+<span cantonese>
+    Dàahnhàih dèoijyü jíhhàah cingfòng, keonglìht gìnjìh fänci wàahkzé zünggäan gäa hyphen:
+</span><br />
+<span english>
+    But for the following situations it's strongly adviced to separate each characters with space or hyphen:
+</span>
+
+<ul>
+<li>後一個字以`h`開頭時；<br />
+    <span cantonese>
+        Hàuh jätgòzìh jíh `h` höitau si;
+    </span><br />
+    <span english>
+        The second character starts with an `h`;
+    </span>
+</li>
+<li>前一個字以`n`結尾 + 後一個字以`g`開頭時；<br />
+    <span cantonese>
+        Cin jätgòzìh jíh `n` gìtméih + hàuh jätgòzìh jíh `g` höitau si;
+    </span><br />
+    <span english>
+        The first character ends with `n` and the second character starts with `g`;
+    </span></li>
+<li>前一個字冇結尾consonant + 後一個字以`ng`開頭時。<br />
+    <span cantonese>
+        Cin jätgòzìh móuh gìtméih consonant + hàuh jätgòzìh jíh `ng` höitau si;
+    </span><br />
+    <span english>
+        The first character does not have an ending consonant and the second character starts with `ng`.
+    </span></li>
+</ul>
+
+<h2>冇元音嘅音節嘅聲調符號<br /><span cantonese>Móuh jyunjäm gè jämzìt gè sïngdìuh fuhóu</span><br /><span english>Syllables without vowel letters but require tone accent marks</span></h2>
+
+對於`m`：<br />
+<span cantonese>Dèoijyü `m`:</span><br />
+<span english>For the syllable `m`:</span>
+
+<ul>
+<li>m4（e.g. 唔、嘸）寫作m。<br /><span cantonese>m4 sézòk m.</span><br /><span english>The syllable "m4" (in Jyutping) is written as "m".</span></li>
+<li>m2（e.g. 呣）寫作m'，手寫或者允許時寫作ḿ。<br /><span cantonese>m2 sézòk m', sáusé wàahkzé wáhnhéoisi sézòk ḿ.</span><br /><span english>The syllable "m2" (in Jyutping) is written as "m'" on devices but as "ḿ" when writing by hand or when it's supported by the device.</span></li>
+</ul>
+
+對於`ng`：<br />
+<span cantonese>Dèoijyü `ng`:</span><br />
+<span english>For the syllable `ng`:</span>
+
+<ul>
+<li>ng4（e.g. 吾、吳、蜈）寫作ng。<br /><span cantonese>ng4 sézòk ng.</span><br /><span english>The syllable "ng4" (in Jyutping) is written as "ng".</span></li>
+<li>ng5（e.g. 午、五、伍）寫作ng'h，手寫或者允許時寫作ńgh。<br /><span cantonese>ng5 sézòk ng'h, sáusé wàahkzé wáhnhéoisi sézòk ńgh.</span><br /><span english>The syllable "ng5" (in Jyutping) is written as "ng'h" on devices but as "ńgh" when writing by hand or when it's supported by the device.</span></li>
+<li>ng6（e.g. 誤、悟、晤）寫作ng`h，手寫或者允許時寫作ǹgh。<br /><span cantonese>ng6 sézòk ng`h, sáusé wàahkzé wáhnhéoisi sézòk ǹgh.</span><br /><span english>The syllable "ng6" (in Jyutping) is written as "ng`h" on devices but as "ǹgh" when writing by hand or when it's supported by the device.</span></li>
+</ul>
+
+
+<a href="./index.html">back</a>
+
+</body>
+</html>
