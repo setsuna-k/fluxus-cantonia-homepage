@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>點解要設計呢套白話字 :: FCAC粵語白話字</title>
-    <link rel="stylesheet" href="../style.css">
+    <title>點解要設計呢套羅馬字 :: FCAC 新耶魯粵語羅馬字</title>
+    <link rel="stylesheet" href="./style.css">
     <style>
         span[cantonese] { font-size:90%; }
         span[english] { font-size:90%; }
@@ -14,8 +14,8 @@
 </head>
 <body>
 
-    <h1>點解要設計呢套白話字<br />
-        <span cantonese>Dímgáai ìu cìtgài nï-tòu baahk-wáa-zih</span><br />
+    <h1>點解要設計呢套羅馬字<br />
+        <span cantonese>Dímgáai iu citgai nï-tou lòhmáhzih?</span><br />
         <span english>Why design this romanization system?</span>
     </h1>
 
@@ -23,17 +23,33 @@
 
     <p>Because Cantonese is not a "dialect". Never was, never will be. The true identity of Cantonese is a thousand-year-old Sino-Kra-Dai creole language with near-zero mutual intelligibility with modern Mandarin.</p>
 
-
+    <h2>Why not Yuhtyúh zengzi (粵語正字; lit. "Cantonese proper characters")?</h2>
     <p>
-        But why, I hear you asking, why can't you just use Yuhtyúx zèngzì (粵語正字; lit. "Cantonese proper characters")? The thing is, while designing a new romanization for Mandarin seems to be generally considered stupid, doing the same thing for Cantonese is (unfortunately) purely a political statement whose objectives Yuhtyúx zèngzì can never fulfill: the myth of Cantonese being merely a "dialect" is based on (1) the fact that we are all "Han people" (which is false; we are much closer to Vietnamese and other Kra-Dai language users than to northern Han) and (2) the fact that Cantonese is supposed to be only able to be written in Chinese characters (because "it's a dialect"; and when you ask why it's a dialect instead of a language they'll tell you that written Cantonese is the same as written Mandarin; it's one big circular reasoning). Using Yuhtyúx zèngzì is only going to further solidify this myth.
+      Yuhtyúh zengzi is a lie, both in the historical sense and the practical sense: it's a dishonest attempt of retrofitting the Kra-Dai roots of Cantonese onto fake, made-up and ultimately non-existent Sinitic history. This is why there's so many "proper characters" with the character 口 inside: they're simply transliteral because people couldn't find a character that has both a "proper Sinitic language history" and a historical pronunciation that's possible to evolve into the current pronunciation. These kind of attempts will only feed into the false narrative of Cantonese being a "dialect" of Chinese and will never properly serve the purpose of preserving our culture.
     </p>
 
     <h2>Why not Jyutping?</h2>
     <p>
-        Jyutping uses numbers to denote tones, which is not very neat when used in long text; tones are vital to Cantonese but I certainly wouldn't want to write a number after every single character.
+        Jyutping uses numbers to denote tones, which is not very neat when used in long text; tones are vital to Cantonese but I certainly wouldn't want to write a number after every single character. I've seen people romanize Basurian languages with no tone denotation; I don't think this is the road Cantonese should take.
     </p>
 
-    <h2>Why the revision?</h2>
+    <h2>Why not Yale?</h2>
+    <p>
+      I designed the system (the 2022 version) exactly because I couldn't input <a href="https://en.wikipedia.org/wiki/Macron_(diacritic)">macron</a> easily as on smartphones; or else I would've just used Yale. (Maybe oneday I'll make a tool like <a href="http://www.zz9pza.net/tajpi/en/">Tajpi</a> for Esperanto and this whole system would be deprecated; who knows?)
+    </p>
+    <p>(Update 2023.12.6: We did! We made <a href="https://setsuna-k.github.io/roman-keyboard/">Keyboard Layout for Southeast Romanizations</a>. We don't think our system would be rendered useless by this though.)</p>
+
+    <h2>Why not <a href="https://www.omniglot.com/conscripts/jyutcitzi.htm">Jyutcitzi</a>?</h2>
+    <p>If you don't know Jyutcitzi, it's an alternative system for Cantonese very similar to Hangul where simple Hanzi characters are used instead of new symbols. 
+    </p>
+    <ul>
+      <li>The current version of Jyutcitzi is still way too cluttered. Some sounds could use simpler characters and ideally for simplicity symbols that's used to make up combined glyphs should not have the same visual structure as the combined glyphs, e.g. use 人 instead of 央 for "j" (which opens up the possibility of using left-right formation and the glyph 亻), use 斤 instead of 臼 for "k", use 亏 instead of 夸 for "kw", 矢 instead of 此 for "c". </li>
+      <li>Most of the time tone markers are not used, which means it has the same problem as solutions which don't use tone markers. The location where the tone markers are written in Jyutcitzi is particularly bad; it looks like it's an after thought rather than an integrated part of the design and this further clutters the overall combined glyph.</li>
+      <li>The use of Chinese characters is, in terms of effectivity, mainly a decoy to lure diehard Hanzi supporters (which is unfortunately common in Cantonese communities) into thinking that this is nothing but a new kind of Hanzi; it's not exactly friendly for foreign learners and not exactly any easier to learn for existing users as well. The creator of Jyutcitzi claimed that using romanization would "bankrupts Cantonese's cultural heritage"; the truth, of course, is that Cantonese's cultural heritage was in the way people speak and do things but never in the writing system people use.</li>
+
+    </ul>
+    <p>I'm not saying that Jyutcitzi is an inherently bad idea, I'm just saying that its rationale is just as flimsy and the system itself leaves much to be desired.</p>
+    <h2>Why the revision (for ver. 2022)?</h2>
     <p>
         After completing the 2022 version there were a few points that I don't like:
     </p>
@@ -43,12 +59,14 @@
         <li>The combination "jy" looks cluttered in syllables like "jyun". I understand "yu" is a whole, single element that represents one sound, it still doesn't look good. (so now it's "yun")</li>
         <li>The "oe" vs. "eo" in Jyutping doesn't look separated enough; they're different vowels: you put your tongue further forward in "oe" (technically it's <a href="https://en.wikipedia.org/wiki/Open-mid_front_rounded_vowel">open-mid <em>front</em> rounded</a> vs. <a href="https://en.wikipedia.org/wiki/Close-mid_central_rounded_vowel">close-mid <em>central</em> rounded</a>), so now you only have "joe" "choe" (surprisingly seems to be <a href="https://en.wiktionary.org/wiki/chur#Chinese">only used in Hong Kong</a>) and "xoe" instead of "zoe" "coe" and "soe" because [s] tends to become closer to [ɕ] when it's a front vowel. For the same reason "zyu" "cyu" and "syu" in Jyutping becomes "jyu" "chyu" and "xyu" as well and further contracted to "ju" "chu" and "xu".</li>
     </ul>
-    
 
-    <h2>Why not Yale?</h2>
-    <p>
-        I designed the system (the 2022 version) exactly because I couldn't input <a href="https://en.wikipedia.org/wiki/Macron_(diacritic)">macron</a> easily as on smartphones; or else I would've just used Yale. (Maybe oneday I'll make a tool like <a href="http://www.zz9pza.net/tajpi/en/">Tajpi</a> for Esperanto and this whole system would be deprecated; who knows?)
-    </p>
+    <h2>Why the revision (for ver. 2023)?</h2>
+    <ul>
+      <li>There's too many "x" in the tone markers of ver. 2023 that would throw people off.</li>
+      <li>In ver. 2023 the letter "x" is used for [s] when it's closer to [ɕ] sound due to the vowels; this reminds me of Hanyu Pinyin and I don't like it for that. In ver. 2024 this is changed back to "s", e.g. it's no longer "xu" but "syu".
+      </li>
+      <li>Although I believe my choices for tone markers are more logical, but in ver. 2024 it's changed to match Yale for easy transition.</li>
+    </ul>
 
     <h2>Wouldn't there be ambiguity if you don't use Chinese characters?</h2>
     <p>

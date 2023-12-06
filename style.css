@@ -25,12 +25,8 @@ body {
 #main {
     font-family: Times, 'Times New Roman', serif;
     width: 960px;
-    height: 100%;
-    position: fixed;
-    top: 2rem;
-    left: 2rem;
-    right: 2rem;
-    bottom: 2rem;
+    margin: 0 auto;
+    margin-top: 5rem;
     background-color: black;
     color: white;
     overflow: auto;

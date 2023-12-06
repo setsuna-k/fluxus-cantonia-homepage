@@ -1,0 +1,32 @@
+@media screen and (min-width: 800px) {
+    body {
+        width: 800px;
+    }
+}
+@media screen and (max-width: 800px) {
+    body {
+        margin: 1.5rem !important;
+    }
+}
+
+
+body {
+    font-family: 'Source Han Serif', 'Times New Roman', Times, serif;
+    margin: 0 auto;
+}
+body h1 { line-height: 100% ;}
+body a { color: black; }
+.title { font-size: 150%; }
+.subtitle { font-size: 85%; }
+header { margin-top: 3rem; }
+footer { margin-top: 1rem; margin-bottom: 3rem; text-align: right; }
+footer a { color: black; }
+#main-footer { font-size: 80%; color: #444; text-align: center; margin-top: 2rem; }
+
+blockquote {
+    margin-left: 2rem;
+    border-left: 2px #666666 solid;
+    padding-left: 1rem;
+    color: #666666;
+
+}
