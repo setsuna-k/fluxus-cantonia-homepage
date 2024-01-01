@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fluxus Cantonia  南粵激流</title>
+<link rel="stylesheet" href="style.css">
+<link rel="me" href="https://mastodon.social/@fluxus_cantonia">
+<style>
+  .item-head {
+      display: inline-block;
+  }
+  .item::after {
+      clear: both;
+  }
+  #news {
+      margin-left: 4rem;
+  }
+  #main {
+      margin: 0;
+      margin-left: 4rem;
+  }
+</style>
+</head>
+
+<body>
+
+  <div id="main">
+
+
+    <div>
+      <a href="../news.html">Back</a>
+    </div>
+  </div>
+</body>
+
+</html>

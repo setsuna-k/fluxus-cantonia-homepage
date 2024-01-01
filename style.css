@@ -4,11 +4,13 @@
 }
 
 @media screen and (max-width: 960px) {
-    #header { font-size: 600% !important; }
+    #header { width: 70% !important; }
+    #main { width: 70%; !important; }
 }
 
 @media screen and (max-width: 800px) {
-    #header { font-size: 500% !important; }
+    #header { width: 80% !important; }
+    #main { width: 80% !important; }
 }
 
 a { color: white; }
@@ -16,21 +18,20 @@ body {
     background-color: black;
     color: white;
     margin: 0;
-    height: 100%;
-    background: url("./Great_Cantonia_Flag_bw.png");
-    background-position: center center;
-    background-size: cover;
 }
 #header {
-    font-family: Didot, 'Times New Roman', Times, serif;
     font-size: 700%;
     line-height: 1;
     user-select: none;
     margin-top: 5rem;
 }
+#header-word {
+    text-align-last: justify;
+}
+    
 #main {
     font-family: Times, 'Times New Roman', serif;
-    width: 960px;
+    width: 800px;
     margin: 0 auto;
     color: white;
     overflow: auto;
