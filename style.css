@@ -23,7 +23,6 @@ body {
     font-size: 700%;
     line-height: 1;
     user-select: none;
-    margin-top: 5rem;
 }
 #header-word {
     text-align-last: justify;
@@ -34,6 +33,7 @@ body {
     width: 800px;
     margin: 0 auto;
     color: white;
-    overflow: auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;;
 }
   
